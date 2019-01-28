@@ -1,6 +1,6 @@
 {
-  "name": "bitcoind-rpc",
-  "description": "Bitcoin Client Library to connect to Bitcoin Core via RPC",
+  "name": "phored-rpc",
+  "description": "Phore Client Library to connect to Phore Core via RPC",
   "version": "0.7.2",
   "author": {
     "name": "Stephen Pair",
@@ -25,12 +25,12 @@
     }
   ],
   "keywords": [
-    "bitcoin",
+    "phore",
     "rpc"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcoind-rpc"
+    "url": "https://github.com/liray-unendlich/phored-rpc"
   },
   "license": "MIT",
   "main": "lib/index.js",
@@ -47,7 +47,7 @@
     "sinon": "^1.12.2"
   },
   "bugs": {
-    "url": "https://github.com/bitpay/bitcoind-rpc/issues"
+    "url": "https://github.com/bitpay/phored-rpc/issues"
   },
-  "homepage": "https://github.com/bitpay/bitcoind-rpc"
+  "homepage": "https://github.com/bitpay/phored-rpc"
 }
