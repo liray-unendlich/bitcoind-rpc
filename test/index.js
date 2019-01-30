@@ -495,7 +495,7 @@ describe("RpcClient", function() {
       requestStub.restore();
       should.exist(error);
       error.message.should.equal(
-        "Phore JSON-RPC: Error Parsing JSON: Unexpected token o"
+        "Phore JSON-RPC: Error Parsing JSON: Unexpected token o in JSON at position 1"
       );
       done();
     });
@@ -529,7 +529,7 @@ describe("RpcClient", function() {
       requestStub.restore();
       should.exist(error);
       error.message.should.equal(
-        "Phore JSON-RPC: Error Parsing JSON: Unexpected end of input"
+        "Phore JSON-RPC: Error Parsing JSON: Unexpected end of JSON input"
       );
       done();
     });
